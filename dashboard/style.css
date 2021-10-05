@@ -1,0 +1,47 @@
+body {
+	background-color:#80B672;
+	background-image: url("img/bck.svg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: 0px 100px; 
+}
+
+#title {
+	position:absolute;
+	top:200px;
+	left:90px;
+}
+
+#back {
+	position:absolute;
+	top:90px;
+	left:90px;
+}
+
+#background {
+   margin: 0;
+   padding: 0;
+}
+
+canvas {
+	position:absolute;
+	top:400px;
+	left:420px;
+}
+
+.btn_container {
+	position:absolute;
+	top:400px;
+	left:90px;
+}
+
+.btn_container button {
+	display:block;
+	width:300px;
+	height:30px;
+	margin-bottom:15px;
+	border:none;
+	background-color:#FFD400;
+	border-radius:10px;
+	cursor: pointer;
+}
